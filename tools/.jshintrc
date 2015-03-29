@@ -1,0 +1,8 @@
+{
+    "laxcomma" : true
+  , "sub"      : true
+  , "onecase"  : true
+  , "node"     : true
+  , "asi"      : true
+  , "esnext"   : true
+}
