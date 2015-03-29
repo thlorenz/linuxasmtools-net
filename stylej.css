@@ -1,8 +1,30 @@
 
 P, DIV, TABLE, TD, TH, DL, UL, OL, FORM, BLOCKQUOTE, CAPTION
-	{ font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif; font-size: 118%; } 
+{ font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif; }
 
-BODY	{ font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif; font-size: 120%; color: white; background: #0066ff; } 
+html {
+ background: #252525;
+}
+body {
+  color: white; background: #0066ff;
+  font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
+
+  -webkit-text-size-adjust: none;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+a {
+  color: #201590;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #201590;
+}
+a:hover	{ color: #080327; }
 
 H1, H2, H3 { font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif; }
 H4, H5, H6 { font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif; }
@@ -32,9 +54,7 @@ H1 { margin-bottom: 2px;} /* may need to get all HR's out of all H2's */
 /*	.menuleft a:visited	{ color: #800080; }   leave at original color */
 /*	.menuleft a:active	{ color: #ff0000; }   leave at original color */
 
-/* hover is only supported by msie */
-	 a:hover	{ color: #FF3300;     }  /* orangish-red */
-	.menuleft  a:hover	{ color: #FFFFFF;    }  /* white */
+.menuleft  a:hover	{ color: #FFFFFF;    }  /* white */
 
 .headerA 	{ 	color: #FFCC66;  
 				background-color :  #000080;  
